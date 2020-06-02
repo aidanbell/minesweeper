@@ -1,0 +1,29 @@
+.tile {
+  height: 15px;
+  width: 15px;
+  border: 1px solid grey;
+}
+
+.revealed {
+  background-color: lightgrey
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  padding: auto;
+}
+
+#png {
+  background-image: url('./rock.png')
+}
